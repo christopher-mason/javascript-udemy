@@ -1,4 +1,4 @@
-const para = document.querySelector('p');
+//const para = document.querySelector('p');
 //console.log(para.innerText);
 //para.innerText = 'Ninjas are awesome!'; // you can use += to amend
 
@@ -8,12 +8,16 @@ const para = document.querySelector('p');
 //     para.innerText += ' new text';
 // });
 
-const content = document.querySelector('.content');
+//const content = document.querySelector('.content');
 //console.log(content.innerHTML);
 //content.innerHTML = '<h2>this is new h2</h2>';
 
-const people = ['Mario', 'Luigi', 'Chris'];
+//const people = ['Mario', 'Luigi', 'Chris'];
 
-people.forEach(person => {
-    content.innerHTML += `<p>${person}</p>`;
-});
+// people.forEach(person => {
+//     content.innerHTML += `<p>${person}</p>`;
+// });
+
+const error = document.querySelector('.error');
+console.log(error.innerHTML);
+error.innerHTML = "You didn't say the magic word";
