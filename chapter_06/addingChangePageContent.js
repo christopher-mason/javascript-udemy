@@ -20,4 +20,4 @@
 
 const error = document.querySelector('.error');
 console.log(error.innerHTML);
-error.innerHTML = "You didn't say the magic word";
+error.innerHTML = "Wait! You didn't say the magic word";
