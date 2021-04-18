@@ -1,4 +1,19 @@
 // let ninjas = ['chris', 'eric', 'christina'];
+let pokemon = ['Charizard', 'Ninetales', 'Blastoise'];
+console.log(pokemon);
+
+pokemon[2] = 'Vulpix';
+console.log(pokemon[2]);
+console.log(pokemon);
+console.log(pokemon.length);
+// let results = pokemon.join(', ');
+// let results = pokemon.indexOf('Charizard');
+let results = pokemon.concat(['Mew', 'Mewtwo']);
+let resulty = pokemon.push('Mewtwo');
+let removal = pokemon.pop();
+console.log(results);
+console.log(resulty);
+console.log(removal);
 
 // ninjas[1] = 'Ken'; // how to override 
 // console.log(ninjas[1]); // position 1, not the first name in array
